@@ -11,5 +11,6 @@
    * Look for "Port Forwarding"
      * It may be a subheading under "Firewall" or you may need to look for an advanced options tab to find it
 4. Set it to forward
+   * Add a new port forwarding rule
    * ***NOTE:** setting up port forwarding means that anyone using your public ip address + the port being forwarded will be thrust into your router bypassing any and all firewalls... You have been warned. I highly suggest clicking the check box to undo it but save the setting option when not in use.*
    * First, identify the port it is forwarding to- for this it is ***XXXXXX*** port
