@@ -9,7 +9,7 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
   * Pull the current code from the repo: 'git pull'
   *   You must be inside the repo folder on your local divice (in this case the folder  `stoneblock`) to use this command
 * Running the server...
-  * First things first, handle your port forwarding! 
+  * First things first, handle your [port forwarding](https://github.com/kboehmer002/stoneblock/blob/main/README.md)! 
   * Start: Click the  `start.bat` file so it will run
   * Stop: Type `stop` in either the GUI or the CMD line
   * Admin Privilages: `/op USERNAME_TO_ADD`
