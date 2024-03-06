@@ -12,6 +12,22 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
 * Running the server...
   * First things first, handle your [port forwarding](https://github.com/kboehmer002/stoneblock/blob/main/Port_Forwarding.md)! 
   * Start: Click the  `start.bat` file so it will run
+    * otherwise while you are in the folder you can run it with `./start.bat`
   * Stop: Type `stop` in either the GUI or the CMD line
   * Admin Privilages: `/op USERNAME_TO_ADD`
   * Teleport: `/tp USER_TO_TP USER_AT_LOC` ; this can be done from the CMD line, the GUI, or (if the user has admin privilages) the chat log
+
+
+## Easiest way to run after initial cloning
+*Note: the cd command is assuming you are in the directory the `stoneblock` folder is in*
+```
+cd stoneblock
+git pull
+./start.bat
+```
+when you are finished...
+*Note: You might want to copy+paste the `world` folder into the `backups` folder so you have a copy you can revert to if the current file becomes corrupted*
+```
+stop
+git push
+```
