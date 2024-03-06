@@ -7,8 +7,8 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
   * You only need to do this once... unless you delete the whole thing on your local computer
 * After you have cloned the repo...
   * Pull the current code from the repo: 'git pull'
-  *   You must be inside the repo folder on your local divice (in this case the folder  `stoneblock`) to use this command
-   *  `cd stoneblock` 
+  * You must be inside the repo folder on your local divice (in this case the folder  `stoneblock`) to use this command
+    *  `cd stoneblock` 
 * Running the server...
   * First things first, handle your [port forwarding](https://github.com/kboehmer002/stoneblock/blob/main/Port_Forwarding.md)! 
   * Start: Click the  `start.bat` file so it will run
