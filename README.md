@@ -1,4 +1,4 @@
-# Stoneblock Server
+Stoneblock Server
 Contains all stoneblock files to be pushed and pulled to share stoneblock hosting computer
 
 ## Instructions
