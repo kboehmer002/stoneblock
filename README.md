@@ -1,4 +1,5 @@
-Stoneblock Server
+#  README Instructions
+## Stoneblock Server
 Contains all stoneblock files to be pushed and pulled to share stoneblock hosting computer
 
 ## Instructions
@@ -31,3 +32,6 @@ when you are finished...
 stop
 git push
 ```
+* Next time you go to start it repeat the process. This keeps the current running world up to date for whoever wants to host next.
+* Find the server at your `GLOBAL_IP:PORT_FORWARDED` 
+  * eg. `201.131.137.100:2955`
