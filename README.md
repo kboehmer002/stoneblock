@@ -19,7 +19,7 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
   * Teleport: `/tp USER_TO_TP USER_AT_LOC` ; this can be done from the CMD line, the GUI, or (if the user has admin privilages) the chat log
 
 
-## Easiest way to run after initial cloning
+## Easiest way to run and keep up to date
 *Note: the cd command is assuming you are in the directory the `stoneblock` folder is in*
 ```
 cd stoneblock
@@ -30,7 +30,7 @@ when you are finished...
 *Note: You might want to copy+paste the `world` folder into the `backups` folder so you have a copy you can revert to if the current file becomes corrupted*
 ```
 stop
-git
+git commit -am "you can add any msg you want this is just an example but def use the quotes"
 git push
 ```
 * Next time you go to start it repeat the process. This keeps the current running world up to date for whoever wants to host next.
